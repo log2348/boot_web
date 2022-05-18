@@ -1,0 +1,16 @@
+/* css 코드 작성 (파일 분리) */
+
+h1 {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+address {
+  text-align: center;
+  margin: 100px;
+  color: cornflowerblue;
+}
