@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+      /* span {
+        background-color: brown;
+      } */
+      #brown1,
+      #brown2 {
+        background-color: brown;
+      }
+
+      /* 
+        # <- id
+        . <- class
+        여러 요소에 공통적으로 지정할 때는 id보다 class가 유용하다.
+      */
+      .potato {
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+      }
+      .tomato {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="brown1">span 태그</span>
+    <span id="brown2">span 태그</span>
+
+    <span class="tomato">span 태그</span>
+    <span class="tomato">span 태그</span>
+    <span class="tomato">span 태그</span>
+    <span class="tomato">span 태그</span>
+    <hr />
+    <!-- class 여러 개 가질 수 있다. -->
+    <span class="tomato hello potato">span 태그</span>
+  </body>
+</html>
